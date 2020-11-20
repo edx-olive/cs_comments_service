@@ -42,7 +42,7 @@ gem 'dalli'
 gem 'rest-client'
 
 group :test do
-  gem 'codecov', :require => false
+  gem 'codecov', :git => 'https://github.com/codecov/codecov-ruby.git', :ref => '4d4186b596c08bfbaa4bc5b350a883a820736915', :require => false
   gem 'mongoid_cleaner', '~> 1.2.0'
   gem 'factory_girl', '~> 4.0'
   gem 'faker', '~> 1.6'
